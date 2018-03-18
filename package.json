@@ -1,0 +1,24 @@
+{
+  "name": "monitor.js",
+  "version": "0.0.1",
+  "description": "web application's monitor",
+  "main": "monitor.js",
+  "scripts": {
+    "build-es5": "babel monitor.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenwujianpeng/monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenwujianpeng/monitor/issues"
+  },
+  "homepage": "https://github.com/stevenwujianpeng/monitor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
