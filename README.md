@@ -1,4 +1,4 @@
-# monitor
+# monitor.js
 前端web应用性能&amp;异常监控解决方案
 
 ##  核心需求: 网页加载时的性能数据, 集中在Navigation Timing
