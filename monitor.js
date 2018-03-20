@@ -139,14 +139,6 @@ function monitor(options) {
         throw new Error('Url is required!')
     }
 
-    monitor.start()
-}
-
-/**
- * @function monitor.start
- * start monitoring
- * */
-monitor.start = function () {
     window.onload = analysisPerformance
     window.onerror = windowError
 }
